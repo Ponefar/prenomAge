@@ -1,0 +1,102 @@
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+
+a:hover,
+.btnVoir:hover,
+.listePays:hover,
+.submit:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.liMenu {
+    margin: 0 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.menuGlobal {
+    padding: 29px;
+    text-align: center;
+    background-color: rgb(170, 111, 111);
+    z-index: 1;
+    position: relative;
+}
+
+.accueil {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 0;
+    height: 100%;    
+    background-color: rgb(153, 171, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.inputFiltre {
+    width: 70%;
+    border-radius: 5px;
+    height: 20px;
+    padding: 5px 5px 5px 12px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.gauche {
+    width: 30%;
+    background-color: rgb(5, 8, 51);
+    /* height: 100%; */
+    color: white;
+    overflow-y: scroll;
+    height: calc(100vh - 80px);
+}
+
+.droite {
+    width: 70%;
+    text-align: center;
+}
+
+.btnVoir {
+    color: rgb(255, 141, 100);
+}
+
+.listePays {
+    margin:8px 0;
+}
+
+.gaucheA {
+    width: 30%;
+    background-color: rgb(5, 8, 51);
+    /* height: 100%; */
+    color: white;
+    height: calc(100vh - 80px);
+    text-align: center;
+}
+
+.submit {
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.bold {
+    color: orangered;
+}
